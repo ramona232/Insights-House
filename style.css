@@ -35,7 +35,7 @@ p {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 400;
   color: rgb(5, 37, 66);
@@ -69,13 +69,8 @@ p {
   justify-content: space-between;
 }
 
-
-
-
-#header .logo{
+#header .logo {
   width: 100px;
-  border-radius: 3px;
-  margin-right: 8px;
   vertical-align: middle;
 }
 
@@ -165,12 +160,6 @@ p {
 #header .hamburger.active .bar::after {
   top: 0;
 }
-
-#header .brand h1 {
-  color: whitesmoke;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-}
 /* end of header section */
 
 /* hero section */
@@ -201,14 +190,14 @@ p {
   justify-content: flex-end;
 }
 
-#hero span{
-  color:gold;
+#hero span {
+  color: gold;
 }
 
 #hero h1 {
   display: block;
   width: fit-content;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   position: relative;
   color: whitesmoke;
 }
@@ -305,8 +294,8 @@ p {
   text-align: left;
 }
 
-#services span{
-  color:gold;
+#services span {
+  color: gold;
 }
 
 #services .service-item p {
@@ -327,7 +316,7 @@ p {
   margin: 50px auto;
 }
 
-#projects .projects-title span{
+#projects .projects-title span {
   color: gold;
 }
 
@@ -361,7 +350,7 @@ p {
   background-color: rgba(4, 28, 49, 0.897);
 }
 
-#projects .project-info h1 a{
+#projects .project-info h1 a {
   color: gold;
 }
 
@@ -418,7 +407,7 @@ p {
 }
 
 #about .col-right h2 {
-  color:rgb(53, 83, 139);
+  color: rgb(53, 83, 139);
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
@@ -426,7 +415,7 @@ p {
   margin-top: 15px;
 }
 
-#about .col-right h2 span{
+#about .col-right h2 span {
   color: #f3b50b;
 }
 
@@ -517,7 +506,7 @@ p {
 }
 
 #footer .brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: whitesmoke;
 }
@@ -529,6 +518,7 @@ p {
   letter-spacing: 0.1rem;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 #footer .social-icon {
@@ -544,6 +534,7 @@ p {
 
 #footer p {
   color: whitesmoke;
+  margin-left: 10px;
 }
 
 /* end of footer section */
@@ -608,7 +599,12 @@ p {
   #header .hamburger {
     display: none;
   }
-
+  #hero h1 {
+    font-size: 4rem;
+  }
+  #hero .cta {
+    font-size: 2.5rem;
+  }
   #header .nav-list ul {
     position: initial;
     display: block;
@@ -616,7 +612,6 @@ p {
     width: fit-content;
     background-color: transparent;
   }
-
   #header .nav-list ul::after {
     display: none;
   }
@@ -628,9 +623,21 @@ p {
     font-size: 1.2rem;
     letter-spacing: normal;
   }
+  #services .section-title {
+    font-size: 3rem;
+  }
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+  #projects .section-title {
+    font-size: 3rem;
+  }
+  #about .section-title {
+    font-size: 3rem;
+  }
+  #contact .section-title {
+    font-size: 3rem;
   }
   #contact .contact {
     display: flex;
@@ -645,6 +652,9 @@ p {
     display: flex;
     flex-direction: row;
     margin: 0;
+  }
+  #meeting .section-title {
+    font-size: 3rem;
   }
 }
 /*  end of media query full screen */
