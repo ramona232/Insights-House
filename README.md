@@ -1,2 +1,2 @@
-# Trend-House
+# Insights House
 Portfolio Website
