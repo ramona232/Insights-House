@@ -295,10 +295,11 @@ p {
 }
 
 #services span {
-  color: gold;
+  color: goldenrod;
 }
 
 #services .service-item p {
+  flex: 1;
   text-align: left;
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -317,7 +318,7 @@ p {
 }
 
 #projects .projects-title span {
-  color: gold;
+  color: goldenrod;
 }
 
 #projects .all-projects {
@@ -416,7 +417,7 @@ p {
 }
 
 #about .col-right h2 span {
-  color: #f3b50b;
+  color: goldenrod;
 }
 
 #about .col-right p {
@@ -440,7 +441,7 @@ p {
   top: 12px;
   height: 98%;
   width: 98%;
-  border: 7px solid #f3b50b;
+  border: 7px solid goldenrod;
   z-index: -1;
 }
 /* end of about me section */
@@ -540,7 +541,7 @@ p {
 /* end of footer section */
 
 /* media query tablet*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   #hero h1 {
     font-size: 5rem;
   }
@@ -552,7 +553,7 @@ p {
     font-size: 5rem;
   }
   #services .service-bottom .service-item {
-    flex-basis: 45%;
+    flex-basis: 75%;
     margin: 1.5%;
   }
   #projects .project-item {
